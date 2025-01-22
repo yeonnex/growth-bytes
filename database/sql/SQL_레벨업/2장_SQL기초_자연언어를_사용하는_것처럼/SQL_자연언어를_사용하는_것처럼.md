@@ -1,5 +1,5 @@
 <!-- Date: 2025-01-13 -->
-<!-- Update Date: 2025-01-21 -->
+<!-- Update Date: 2025-01-22 -->
 <!-- File ID: adbba9c0-e8b9-40b8-9349-a04e5141d698 -->
 <!-- Author: Seoyeon Jang -->
 
@@ -180,6 +180,24 @@ from (select address AS v_address, count(*) AS cnt
 
 이 Address2 테이블에는 Address 테이블과 공통되는 데이터도 들어있다. 이 두 테이블을 사용해 'Address 테이블에서 Address2 테이블에 있는 사람을 선택'하는 쿼리를 만들어보자. 이런 처리를
 매칭(matching)이라고 부른다.
+
+```sql
+select name
+from address
+where name in (select name from address2);
+```
+
+SQL은 서브쿼리부터 순서대로 실행한다. 따라서 앞의 SELECT 구문은 서브쿼리를 상수로 전개해서 다음처럼 바꾼다.
+
+```sql
+select name
+from address
+where name in ('인성', '민', '지연', '서준', '중진');
+```
+
+이러한 IN과 서브쿼리를 함께 사용하는 구문은 데이터가 변경되어도 따로 수정할 필요가 없다는 점에서 편리하다. 예를 들어 상수를 직접 입력(하드코딩)하면 address2 테이블의 데이터가 바뀔 때마다 select
+구문을 수정해야한다. 하지만 서브쿼리를 사용하면 IN 내부의 서브쿼리가 SELECT 구문 전체가 실행될 때마다 다시 실행된다. 따라서 동적으로 상수 리스트를 생성하게 되어 address2 테이블의 데이터가 바뀌어도
+알아서 처리해준다.
 
 # 정리
 
