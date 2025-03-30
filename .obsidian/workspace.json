@@ -63,14 +63,10 @@
             "id": "07e96dab57073471",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "스레드 실행 전 예외 처리 로직 정의하기.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "스레드 실행 전 예외 처리 로직 정의하기"
+              "title": "New tab"
             }
           },
           {
@@ -93,30 +89,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/synchronized 메서드.md",
+                "file": "infrastructure/orchestration/airflow/Airflow 소개.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "synchronized 메서드"
+              "title": "Airflow 소개"
+            }
+          },
+          {
+            "id": "d07f2bb4e9b9ecc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "languages/java/기본기가_탄탄한_자바개발자/JVM에서 자바 외의 언어/다른 JVM 언어/인터프리트 언어 vs. 컴파일 언어.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "인터프리트 언어 vs. 컴파일 언어"
             }
           },
           {
             "id": "2842b3ae06fd3df1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "synchronized 메서드 제어자 대신에 동기화 블록을 사용한 이유.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "synchronized 메서드 제어자 대신에 동기화 블록을 사용한 이유"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -173,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7f19cdb758a13e6b",
@@ -261,41 +266,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ba0900fcc52421b",
+  "active": "d07f2bb4e9b9ecc7",
   "lastOpenFiles": [
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/바이트코드에서의 동기화.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/synchronized 메서드.md",
-    "Pasted image 20250305204445.png",
-    "Pasted image 20250305204415.png",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/더이상 사용되지 않으면서 애플리케이션 프로그래머가 사용해서는 안되는 Thread 메서드.md",
+    "languages/java/기본기가_탄탄한_자바개발자/JVM에서 자바 외의 언어/다른 JVM 언어/언어 분류학.md",
+    "languages/java/기본기가_탄탄한_자바개발자/JVM에서 자바 외의 언어/다른 JVM 언어/인터프리트 언어 vs. 컴파일 언어.md",
+    "languages/java/기본기가_탄탄한_자바개발자/JVM에서 자바 외의 언어/다른 JVM 언어",
+    "infrastructure/orchestration/airflow/Python Operator 사용전 파이썬 기본 상식.md",
+    "languages/java/기본기가_탄탄한_자바개발자/JVM에서 자바 외의 언어",
+    "Pasted image 20250326163514.png",
+    "Pasted image 20250326161932.png",
+    "languages/java/기본기가_탄탄한_자바개발자/15장_고급 함수형 프로그래밍/자바의 타입 시스템과컬렉션.md",
+    "languages/java/기본기가_탄탄한_자바개발자/15장_고급 함수형 프로그래밍/지연 평가.md",
+    "languages/java/기본기가_탄탄한_자바개발자/15장_고급 함수형 프로그래밍/closure.md",
+    "languages/python/python-for-expert/리스트컴프리핸션과 가독성.md",
+    "languages/python/python-for-expert/시퀀스의 배열.md",
+    "Pasted image 20250324163138.png",
+    "Pasted image 20250322142629.png",
+    "Pasted image 20250322142044.png",
+    "infrastructure/orchestration/airflow/시작하며.md",
+    "infrastructure/orchestration/airflow/Airflow 소개.md",
+    "Pasted image 20250322112845.png",
+    "Pasted image 20250322112227.png",
+    "Pasted image 20250322111622.png",
+    "Pasted image 20250322110656.png",
+    "languages/java/기본기가_탄탄한_자바개발자/15장_고급 함수형 프로그래밍/함수형 프로그래밍 언어로서 자바의 한계.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/블로킹 큐.md",
+    "languages/java/기본기가_탄탄한_자바개발자/15장_고급 함수형 프로그래밍",
+    "Pasted image 20250317130813.png",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/ConcurrentHashMap.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/CountDownLatch 동작 원리.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/CountDownLatch.md",
+    "languages/java/own/자바 타입 추론의 모호성.md",
+    "languages/java/own",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/조건 객체.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/잠금 클래스.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/아토믹 클래스.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/락을 사용하지 않고 동기화를 구현할 수 있는 이유.md",
     "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/바이트코드로 동시성 이해하기.md",
-    "synchronized 메서드 제어자 대신에 동기화 블록을 사용한 이유.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/빌더 패턴.md",
-    "Pasted image 20250302202035.png",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/불변성.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/스레드 실행 전 예외 처리 로직 정의하기.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/간단한 다중 스레드 애플리케이션 프로그램.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/스레드 상태와 메서드.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/스레드 인터럽트.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/volatile이 안전하지 않은 경우.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/volatile 키워드.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/왜 동기화해야하는가.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/왜 동기화해야하는가?.md",
-    "Pasted image 20250228205933.png",
-    "Pasted image 20250228205043.png",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/교착상태.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/자바 스레드의 상태 모델.md",
-    "Pasted image 20250228204247.png",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리/최신 동시 애플리케이션을 위한 빌딩 블록.md",
+    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/교착 상태(데드락) 시나리오.md",
+    "languages/java/기본기가_탄탄한_자바개발자/6장 JDK 동시성 라이브러리",
+    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/volatile 액세스.md",
+    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/동기화되지 않은 읽기의 문제점.md",
     "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/완전히 동기화된 객체.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/블록 구조 동시성(자바 5 이전).md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/FSOAccount.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/자바 동시성 기초 개요.md",
-    "languages/java/기본기가_탄탄한_자바개발자/5장 자바 동시성 기초/5.1 동시성 이론 입문.md",
-    "languages/python/python-for-expert/파이썬다운 카드 한 벌.md",
     "languages/python/python-for-expert/vector2d.py",
-    "languages/python/python-for-expert/파이썬 데이터 모델.md",
-    "languages/python/python-for-expert/hello.py.md",
-    "refactoring/파이브 라인스 오브 코드/타입코드 처리하기/클래스로 타입 코드 대체.md",
     "languages/python/python-for-expert/frenchdeck.py",
     "languages/python/python-for-expert",
     "infrastructure/orchestration/airflow",
